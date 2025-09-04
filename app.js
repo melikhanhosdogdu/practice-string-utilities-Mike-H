@@ -1,5 +1,5 @@
-const { capitalize, reverse } = require("./stringUtils");
+const { capitalize, reverse, contains } = require("./stringUtils");
 
 console.log(capitalize("hello"));
-console.log(reverse("hello"));
+console.log(reverse("istanbul"));
 console.log(contains("istanbul", "an"));
